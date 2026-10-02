@@ -2,3 +2,5 @@ pack.name=DuckMod Resource Pack
 pack.description=Adds ducks to Minecraft
 item.duckmod:raw_duck=Raw Duck
 item.duckmod:cooked_duck=Cooked Duck
+entity.duckmod:duck.name=Duck
+item.spawn_egg.entity.duckmod:duck.name=Duck Spawn Egg
