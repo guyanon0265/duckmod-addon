@@ -5,6 +5,9 @@
     },
     "duckmod:cooked_duck": {
       "textures": "textures/duckmod/items/cooked_duck"
+    },
+    "duckmod:duck_spawn_egg": {
+      "textures": "textures/duckmod/items/duck_spawn_egg"
     }
   }
 }
