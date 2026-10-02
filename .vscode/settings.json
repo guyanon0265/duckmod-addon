@@ -1,13 +1,5 @@
 {
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
-  "prettier.ignorePath": ".prettierignore",
-  "files.readonlyInclude": {
-    "**/bedrock-samples/**": true
-  },
-  "search.useIgnoreFiles": false,
-  "search.exclude": {
-    "**/bedrock-samples/behavior_pack/**": false,
-    "**/bedrock-samples/resource_pack/**": false
-  }
+  "prettier.ignorePath": ".prettierignore"
 }

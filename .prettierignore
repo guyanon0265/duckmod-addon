@@ -6,5 +6,3 @@ pnpm-lock.yaml
 
 # Node dependencies
 node_modules/
-
-bedrock-samples/
