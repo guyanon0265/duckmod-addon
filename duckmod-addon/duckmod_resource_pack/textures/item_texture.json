@@ -1,0 +1,10 @@
+{
+  "texture_data": {
+    "duckmod:raw_duck": {
+      "textures": "textures/duckmod/items/raw_duck"
+    },
+    "duckmod:cooked_duck": {
+      "textures": "textures/duckmod/items/cooked_duck"
+    }
+  }
+}

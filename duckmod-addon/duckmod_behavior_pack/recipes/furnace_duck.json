@@ -1,0 +1,18 @@
+{
+  "format_version": "1.21.50",
+
+  "minecraft:recipe_furnace": {
+    "description": {
+      "identifier": "duckmod:furnace_duck"
+    },
+    "unlock": [
+      {
+        "item": "duckmod:raw_duck"
+      }
+    ],
+    "tags": ["furnace", "smoker", "campfire", "soul_campfire"],
+    "input": "duckmod:raw_duck",
+    "output": "duckmod:cooked_duck",
+    "priority": 50
+  }
+}

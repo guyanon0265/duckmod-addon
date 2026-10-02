@@ -1,0 +1,40 @@
+{
+  "name": "duckmod-addon",
+  "version": "1.0.0",
+  "description": "Adds ducks to Minecraft",
+  "main": "main.js",
+  "scripts": {
+    "format": "pnpm exec prettier --write .",
+    "lint": "eslint .",
+    "clone": "node dev_scripts/cloner.js",
+    "compile": "node dev_scripts/compiler.js",
+    "deploy": "node dev_scripts/deployer.js",
+    "watch": "nodemon --watch duckmod-addon --exec \"pnpm deploy\""
+  },
+  "keywords": [],
+  "author": "watchernovius",
+  "license": "MIT",
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "^11.12.0",
+      "onFail": "download"
+    }
+  },
+  "type": "module",
+  "dependencies": {
+    "@minecraft/server": "^2.10.0",
+    "dotenv": "^18.0.5"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "adm-zip": "^0.6.1",
+    "eslint": "^10.11.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-import-x": "^4.17.1",
+    "eslint-plugin-minecraft-linting": "^2.0.12",
+    "globals": "^17.12.0",
+    "nodemon": "^3.1.14",
+    "prettier": "^3.9.9"
+  }
+}

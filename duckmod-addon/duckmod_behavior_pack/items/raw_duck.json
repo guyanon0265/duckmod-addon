@@ -1,0 +1,27 @@
+{
+  "format_version": "1.26.50",
+  "minecraft:item": {
+    "description": {
+      "identifier": "duckmod:raw_duck",
+      "menu_category": {
+        "category": "nature",
+        "group": "minecraft:itemGroup.name.rawFood"
+      }
+    },
+    "components": {
+      "minecraft:icon": "duckmod:raw_duck",
+      "minecraft:food": {
+        "nutrition": 2,
+        "saturation_modifier": 0.6
+      },
+      "minecraft:use_animation": "eat",
+      "minecraft:use_modifiers": {
+        "use_duration": 1.6
+      },
+      "minecraft:tags": {
+        "tags": ["minecraft:is_food", "minecraft:is_meat"]
+      },
+      "duckmod:food_effects": {}
+    }
+  }
+}

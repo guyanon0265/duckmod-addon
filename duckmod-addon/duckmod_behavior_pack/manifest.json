@@ -1,0 +1,39 @@
+{
+  "format_version": 3,
+  "header": {
+    "name": "pack.name",
+    "description": "pack.description",
+    "uuid": "e2034bae-6d50-40ef-9640-1edc65401258",
+    "version": "1.0.0",
+    "min_engine_version": "1.26.50"
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "a049b7d3-4434-4f0b-9737-3767a3e0f607",
+      "version": "1.0.0"
+    },
+    {
+      "type": "script",
+      "uuid": "4b2a6065-e158-403b-bca8-967ce2a12e20",
+      "version": "1.0.0",
+      "language": "javascript",
+      "entry": "scripts/main.js"
+    }
+  ],
+  "metadata": {
+    "authors": ["watchernovius"],
+    "license": "MIT",
+    "product_type": "addon"
+  },
+  "dependencies": [
+    {
+      "uuid": "f8592128-4bed-4d65-b45a-76ce905c39a1",
+      "version": "1.0.0"
+    },
+    {
+      "module_name": "@minecraft/server",
+      "version": "2.10.0"
+    }
+  ]
+}

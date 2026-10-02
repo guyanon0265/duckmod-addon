@@ -1,0 +1,30 @@
+{
+  "format_version": 3,
+  "header": {
+    "name": "pack.name",
+    "description": "pack.description",
+    "uuid": "f8592128-4bed-4d65-b45a-76ce905c39a1",
+    "version": "1.0.0",
+    "min_engine_version": "1.26.50",
+    "pack_scope": "world"
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "31708b9f-24cd-4604-98cc-4a047981446c",
+      "version": "1.0.0"
+    }
+  ],
+  "metadata": {
+    "authors": ["watchernovius"],
+    "license": "MIT",
+    "product_type": "addon"
+  },
+  "capabilities": ["pbr"],
+  "dependencies": [
+    {
+      "uuid": "e2034bae-6d50-40ef-9640-1edc65401258",
+      "version": "1.0.0"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "recommendations": [
+    "mojang-studios.minecraft-debugger",
+    "BlockceptionLtd.blockceptionvscodeminecraftbedrockdevelopmentextension",
+    "esbenp.prettier-vscode",
+    "dbaeumer.vscode-eslint"
+  ]
+}

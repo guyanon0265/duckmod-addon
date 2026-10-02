@@ -1,0 +1,10 @@
+# Package and Lock files
+package-lock.json
+package.json
+yarn.lock
+pnpm-lock.yaml
+
+# Node dependencies
+node_modules/
+
+bedrock-samples/
