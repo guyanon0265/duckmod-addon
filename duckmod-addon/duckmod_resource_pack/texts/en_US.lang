@@ -4,3 +4,6 @@ item.duckmod:raw_duck=Raw Duck
 item.duckmod:cooked_duck=Cooked Duck
 entity.duckmod:duck.name=Duck
 item.spawn_egg.entity.duckmod:duck.name=Duck Spawn Egg
+item.duckmod:white_egg=White Egg
+item.duckmod:green_egg=Green Egg
+item.duckmod:cream_egg=Cream Egg

@@ -8,6 +8,15 @@
     },
     "duckmod:duck_spawn_egg": {
       "textures": "textures/duckmod/items/duck_spawn_egg"
+    },
+    "duckmod:white_egg": {
+      "textures": "textures/duckmod/items/white_egg"
+    },
+    "duckmod:green_egg": {
+      "textures": "textures/duckmod/items/green_egg"
+    },
+    "duckmod:cream_egg": {
+      "textures": "textures/duckmod/items/cream_egg"
     }
   }
 }
