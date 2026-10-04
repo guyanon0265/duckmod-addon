@@ -18,7 +18,8 @@
       },
       "minecraft:tags": {
         "tags": ["minecraft:egg"]
-      }
+      },
+      "duckmod:egg_variant": {}
     }
   }
 }
