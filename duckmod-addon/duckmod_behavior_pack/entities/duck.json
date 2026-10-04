@@ -94,7 +94,7 @@
               "min_wait_time": 300,
               "max_wait_time": 600,
               "spawn_sound": "plop",
-              "spawn_item": "egg",
+              "spawn_item": "duckmod:white_egg",
               "filters": [
                 {
                   "test": "rider_count",
@@ -114,7 +114,7 @@
               "min_wait_time": 300,
               "max_wait_time": 600,
               "spawn_sound": "plop",
-              "spawn_item": "brown_egg",
+              "spawn_item": "duckmod:green_egg",
               "filters": [
                 {
                   "test": "rider_count",
@@ -134,7 +134,7 @@
               "min_wait_time": 300,
               "max_wait_time": 600,
               "spawn_sound": "plop",
-              "spawn_item": "blue_egg",
+              "spawn_item": "duckmod:cream_egg",
               "filters": [
                 {
                   "test": "rider_count",
