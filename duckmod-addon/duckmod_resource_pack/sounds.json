@@ -1,7 +1,92 @@
 {
   "entity_sounds": {
     "entities": {
-      "duckmod:duck": {}
+      "duckmod:duck": {
+        "events": {
+          "ambient": "duck.say",
+          "death": "duck.hurt",
+          "hurt": "duck.hurt",
+          "plop": "duck.plop",
+          "step": {
+            "pitch": 1.0,
+            "sound": "duck.step",
+            "volume": 0.25
+          }
+        },
+        "pitch": [0.8, 1.2],
+        "variants": {
+          "key": "query.is_baby ? 'baby' : query.property('minecraft:sound_variant')",
+          "map": {
+            "baby": {
+              "events": {
+                "ambient": {
+                  "pitch": 0.5,
+                  "sound": "baby_duck.ambient",
+                  "volume": 1.0
+                },
+                "ambient.baby": {
+                  "pitch": 0.5,
+                  "sound": "baby_duck.ambient",
+                  "volume": 1.0
+                },
+                "death": {
+                  "pitch": 0.5,
+                  "sound": "baby_duck.death",
+                  "volume": 1.0
+                },
+                "hurt": {
+                  "pitch": 0.5,
+                  "sound": "baby_duck.hurt",
+                  "volume": 1.0
+                },
+                "step": {
+                  "pitch": 0.5,
+                  "sound": "baby_duck.step",
+                  "volume": 1.0
+                }
+              },
+              "pitch": 1.0,
+              "volume": 1.0
+            },
+            "default": {
+              "events": {
+                "ambient": {
+                  "sound": "duck.say",
+                  "volume": 0.8
+                },
+                "death": {
+                  "pitch": 0.9,
+                  "sound": "duck.hurt",
+                  "volume": 0.5
+                },
+                "hurt": {
+                  "sound": "duck.hurt"
+                },
+                "plop": "duck.plop",
+                "step": {
+                  "pitch": 1.0,
+                  "sound": "duck.step",
+                  "volume": 0.1
+                }
+              },
+              "pitch": 1.0,
+              "volume": 1.0
+            },
+            "plucky": {
+              "events": {
+                "ambient": "plucky_duck.say",
+                "death": "plucky_duck.death",
+                "hurt": "plucky_duck.hurt",
+                "plop": "duck.plop",
+                "step": "duck.step"
+              },
+              "pitch": 1.0,
+              "volume": 1.0
+            }
+          }
+        },
+        "volume": 1.0
+      }
     }
   }
 }
