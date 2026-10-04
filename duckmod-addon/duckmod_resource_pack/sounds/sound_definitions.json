@@ -1,0 +1,119 @@
+{
+  "format_version": "1.26.50",
+  "sound_definitions": {
+    "baby_duck.ambient": {
+      "__use_legacy_max_distance": "true",
+      "category": "neutral",
+      "max_distance": 16.0,
+      "min_distance": null,
+      "sounds": [
+        {
+          "name": "sounds/duck/baby_duck/ambient1",
+          "volume": 0.7,
+          "weight": 3
+        },
+        {
+          "name": "sounds/duck/baby_duck/ambient2",
+          "volume": 0.7,
+          "weight": 1
+        }
+      ],
+      "subtitle": "subtitles.entity.baby_duck.ambient"
+    },
+    "baby_duck.death": {
+      "__use_legacy_max_distance": "true",
+      "category": "neutral",
+      "max_distance": 16.0,
+      "min_distance": null,
+      "sounds": ["sounds/duck/baby_duck/death"],
+      "subtitle": "subtitles.entity.baby_duck.death"
+    },
+    "baby_duck.hurt": {
+      "__use_legacy_max_distance": "true",
+      "category": "neutral",
+      "max_distance": 16.0,
+      "min_distance": null,
+      "sounds": [
+        "sounds/duck/baby_duck/hurt1",
+        "sounds/duck/baby_duck/hurt2",
+        "sounds/duck/baby_duck/hurt3",
+        "sounds/duck/baby_duck/hurt4"
+      ],
+      "subtitle": "subtitles.entity.baby_duck.hurt"
+    },
+    "baby_duck.step": {
+      "__use_legacy_max_distance": "true",
+      "category": "neutral",
+      "max_distance": 16.0,
+      "min_distance": null,
+      "sounds": ["sounds/duck/baby_duck/step"],
+      "subtitle": "subtitles.block.generic.footsteps"
+    },
+    "duck.hurt": {
+      "__use_legacy_max_distance": "true",
+      "category": "neutral",
+      "max_distance": null,
+      "min_distance": null,
+      "sounds": ["sounds/duck/hurt1", "sounds/duck/hurt2"],
+      "subtitle": "subtitles.entity.duck.hurt"
+    },
+    "duck.plop": {
+      "__use_legacy_max_distance": "true",
+      "category": "neutral",
+      "max_distance": null,
+      "min_distance": null,
+      "sounds": ["sounds/duck/plop"],
+      "subtitle": "subtitles.block.sniffer_egg.plop"
+    },
+    "duck.say": {
+      "__use_legacy_max_distance": "true",
+      "category": "neutral",
+      "max_distance": null,
+      "min_distance": null,
+      "sounds": ["sounds/duck/say1", "sounds/duck/say2", "sounds/duck/say3"],
+      "subtitle": "subtitles.entity.duck.ambient"
+    },
+    "duck.step": {
+      "__use_legacy_max_distance": "true",
+      "category": "neutral",
+      "max_distance": null,
+      "min_distance": null,
+      "sounds": [
+        {
+          "name": "sounds/duck/step1",
+          "volume": 0.1
+        },
+        {
+          "name": "sounds/duck/step2",
+          "volume": 0.1
+        }
+      ],
+      "subtitle": "subtitles.block.generic.footsteps"
+    },
+    "plucky_duck.death": {
+      "category": "neutral",
+      "max_distance": 16.0,
+      "min_distance": null,
+      "sounds": ["sounds/duck/plucky/death"]
+    },
+    "plucky_duck.hurt": {
+      "category": "neutral",
+      "max_distance": 16.0,
+      "min_distance": null,
+      "sounds": ["sounds/duck/plucky/hurt1", "sounds/duck/plucky/hurt2", "sounds/duck/plucky/hurt3"]
+    },
+    "plucky_duck.say": {
+      "category": "neutral",
+      "max_distance": 16.0,
+      "min_distance": null,
+      "sounds": [
+        "sounds/duck/plucky/ambient1",
+        "sounds/duck/plucky/ambient2",
+        "sounds/duck/plucky/ambient3",
+        "sounds/duck/plucky/ambient4",
+        "sounds/duck/plucky/ambient5",
+        "sounds/duck/plucky/ambient6"
+      ]
+    }
+  }
+}
