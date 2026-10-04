@@ -77,17 +77,17 @@
             "on_entity_hit": true,
             "particle_type": "iconcrack",
             "particle_item_name": {
-              "duckmod:cream_egg": {
+              "egg": {
                 "domain": "minecraft:climate_variant",
                 "test": "enum_property",
                 "value": "cold"
               },
-              "duckmod:green_egg": {
+              "blue_egg": {
                 "domain": "minecraft:climate_variant",
                 "test": "enum_property",
                 "value": "warm"
               },
-              "duckmod:white_egg": {
+              "snowball": {
                 "domain": "minecraft:climate_variant",
                 "test": "enum_property",
                 "value": "temperate"
