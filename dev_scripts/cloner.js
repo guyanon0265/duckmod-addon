@@ -1,5 +1,5 @@
 import fs from "fs/promises";
-import { execSync } from "child_process";
+import { execFileSync } from "child_process";
 import path from "path";
 import { fileURLToPath } from "url";
 
@@ -14,7 +14,7 @@ async function cloneSamples() {
     await fs.rm(TARGET_DIR, { recursive: true, force: true });
 
     console.log("Cloning Mojang Bedrock Samples...");
-    execSync(`git clone --depth 1 ${REPO_URL} "${TARGET_DIR}"`, { stdio: "inherit" });
+    execFileSync("git", ["clone", "--depth", "1", REPO_URL, TARGET_DIR], { stdio: "inherit" });
 
     console.log("Stripping internal Git metadata to ensure read-only safety...");
     const internalGitFolder = path.join(TARGET_DIR, ".git");
