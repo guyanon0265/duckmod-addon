@@ -13,7 +13,7 @@ const OUTPUT_DIR = path.join(PROJECT_ROOT, "compiled");
 const SOURCE_BP = path.join(SOURCE_DIR, "duckmod_behavior_pack");
 const SOURCE_RP = path.join(SOURCE_DIR, "duckmod_resource_pack");
 
-const VERSION_NUMBER = "1.0-SNAPSHOT";
+const VERSION_NUMBER = "1.0.0";
 
 async function compileAddon() {
   try {
