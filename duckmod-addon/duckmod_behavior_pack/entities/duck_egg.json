@@ -77,7 +77,7 @@
             "on_entity_hit": true,
             "particle_type": "iconcrack",
             "particle_item_name": {
-              "egg": {
+              "brown_egg": {
                 "domain": "minecraft:climate_variant",
                 "test": "enum_property",
                 "value": "cold"
@@ -87,7 +87,7 @@
                 "test": "enum_property",
                 "value": "warm"
               },
-              "snowball": {
+              "egg": {
                 "domain": "minecraft:climate_variant",
                 "test": "enum_property",
                 "value": "temperate"
