@@ -2,9 +2,8 @@
 
 The Bedrock Add-On version of DuckMod for Java. To download DuckMod or the Add-On, please see below.
 
-**Download .mcaddon:** [Latest (26.50)](https://cdn.jsdelivr.net/gh/guyanon0265/duckmod-addon@main/releases/v1.0.0/duckmod-addon-1.0.0.mcaddon)  
-**Download .zip:** [Latest](https://cdn.jsdelivr.net/gh/guyanon0265/duckmod-addon@main/releases/v1.0.0/duckmod-addon-1.0.0.zip)  
-**Download mod:** [Go to Modrinth](https://modrinth.com/mod/mcduckmod)
+**Download .mcaddon:** [Website](https://duckmod.pages.dev/) | [Releases](https://github.com/guyanon0265/duckmod-addon/releases)  
+**Download mod:** [Modrinth](https://modrinth.com/mod/mcduckmod)
 
 ## About DuckMod
 
