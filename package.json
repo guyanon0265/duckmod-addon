@@ -9,8 +9,7 @@
     "clone": "node dev_scripts/cloner.js",
     "compile": "node dev_scripts/compiler.js",
     "deploy": "node dev_scripts/deployer.js",
-    "watch": "nodemon --watch duckmod-addon --exec \"pnpm deploy\"",
-    "jsd:purge": "node dev_scripts/purger.js"
+    "watch": "nodemon --watch duckmod-addon --exec \"pnpm deploy\""
   },
   "keywords": [],
   "author": "watchernovius",
