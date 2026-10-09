@@ -7,7 +7,8 @@ import AdmZip from "adm-zip";
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const VERSION_NUMBER = "1.1.0";
+const RAW_VERSION = process.argv[2];
+const VERSION_NUMBER = RAW_VERSION ? RAW_VERSION.replace(/^[vV]/, "") : "0.0.0";
 
 const PROJECT_ROOT = path.resolve(__dirname, "../");
 const SOURCE_DIR = path.join(PROJECT_ROOT, "duckmod-addon");
