@@ -31,7 +31,9 @@
       },
       "scripts": {
         "animate": [
-          "general",
+          {
+            "general": "!query.is_in_water && !query.relative_block_has_any_tag(0, -1, 0, 'water')"
+          },
           {
             "move": "query.modified_move_speed"
           },
