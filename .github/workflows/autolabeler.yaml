@@ -20,7 +20,7 @@ jobs:
         uses: github/issue-labeler@v3.5
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
-          configuration-path: .github/label-config.yml
+          configuration-path: .github/label-config.yaml
           enable-versioned-regex: 0
           include-body: 1
           include-title: 0
