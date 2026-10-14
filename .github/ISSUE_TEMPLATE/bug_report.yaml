@@ -1,5 +1,5 @@
 name: Bug Report
-description: Describe an issue found in the addon.
+description: Describe an issue found in the addon
 title: "[BUG] "
 labels: ["bug"]
 body:
