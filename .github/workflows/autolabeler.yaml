@@ -1,0 +1,26 @@
+name: Auto Label Bug Reports
+
+on:
+  issues:
+    types: [opened, edited]
+
+jobs:
+  label-bug:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+      contents: read
+
+    steps:
+      - name: Checkout Repository Configuration
+        uses: actions/checkout@v4
+
+      - name: Parse Issue Body
+        id: parse
+        uses: github/issue-labeler@v3
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          configuration-path: .github/label-config.yml
+          include-body: 1
+          include-title: 0
+          sync-labels: 1
