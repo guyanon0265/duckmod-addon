@@ -42,7 +42,6 @@ body:
       label: Broken Component
       description: Please indicate where the bug occurs
       options:
-        - -Select-
         - Behavior Pack
         - Resource Pack
         - Both or unsure
@@ -71,7 +70,6 @@ body:
       label: Severity
       description: Please choose the severity of the bug
       options:
-        - -Select-
         - Severe - Game crashes due to issue in addon
         - High - Addon behaves incorrectly or causes game to behave incorrectly
         - Low - Addon has issues that do not affect gameplay
