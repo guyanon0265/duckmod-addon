@@ -17,7 +17,7 @@ jobs:
 
       - name: Parse Issue Body
         id: parse
-        uses: github/issue-labeler@v3
+        uses: github/issue-labeler@v3.5
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           configuration-path: .github/label-config.yml
