@@ -1,0 +1,79 @@
+name: Bug Report
+description: Describe an issue found in the addon.
+title: "[BUG] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please try to be descriptive so the bug is easier to reproduce and fix.
+        Attaching relevant logs is appreciated.
+
+  - type: input
+    id: mc-version
+    attributes:
+      label: Minecraft Version
+      description: The Minecraft version the bug occurred on
+      placeholder: v26.50
+    validations:
+      required: true
+
+  - type: input
+    id: addon-version
+    attributes:
+      label: Add-On Version
+      description: The addon version the bug occurred on
+      placeholder: v1.0.0
+    validations:
+      required: true
+
+  - type: input
+    id: platform
+    attributes:
+      label: Platform
+      description: The platform the bug occurred on
+      placeholder: Windows 10, MacOS 26, etc
+    validations:
+      required: true
+
+  - type: dropdown
+    id: component
+    attributes:
+      label: Broken Component
+      description: Please indicate where the bug occurs
+      options:
+        - -Select-
+        - Behavior Pack
+        - Resource Pack
+        - Both or unsure
+    validations:
+      required: true
+
+  - type: textarea
+    id: bug-description
+    attributes:
+      label: Bug Description
+      description: Describe the bug
+    validations:
+      required: true
+
+  - type: textarea
+    id: bug-reproduction
+    attributes:
+      label: Steps to Reproduce
+      description: Describe how to reproduce the bug
+    validations:
+      required: true
+
+  - type: dropdown
+    id: bug-type
+    attributes:
+      label: Severity
+      description: Please choose the severity of the bug
+      options:
+        - -Select-
+        - Severe - Game crashes due to issue in addon
+        - High - Addon behaves incorrectly or causes game to behave incorrectly
+        - Low - Addon has issues that do not affect gameplay
+    validations:
+      required: true
