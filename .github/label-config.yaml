@@ -4,8 +4,8 @@
 "component:rp":
   - body: "Resource Pack|Both or unsure"
 
-"severity:severe":
-  - body: "Severe - Game crashes due to issue in addon"
+"severity:critical":
+  - body: "Critical - Game crashes due to issue in addon"
 
 "severity:high":
   - body: "High - Addon behaves incorrectly or causes game to behave incorrectly"
